@@ -182,8 +182,6 @@ body{
 .menu-item {
     height: 42px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 16;
     width: 62px;
     height: 34px;
@@ -196,6 +194,9 @@ body{
     color: #000000;
     justify-content: center;
     cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
 }
 
 .menu-item:hover {
@@ -213,6 +214,11 @@ body{
     flex-grow: 0;
     border: 0;
     color: #FFFFFF;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
     }
 
 .menu-item:focus {
@@ -230,7 +236,12 @@ body{
     flex-grow: 0;
     border: 0;
     color: #FFFFFF;
-        }
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    }
 
 .contenedorNH{
     display: flex;
