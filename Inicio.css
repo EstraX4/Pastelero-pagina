@@ -246,3 +246,78 @@ body{
     top: 27em;
     position: absolute;
 }
+
+/* Menu */
+
+.left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url(assets/left.png);
+}
+
+.left .Reposteria {
+    width: 201px;
+    height: 72px;
+}
+
+.left .JuanCakes {
+    width: 309px;
+    }
+
+.right{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 50%;
+    height: 1601px;
+    left: 547px;
+    top: 0px;
+    flex-direction: column;
+    border: white solid;
+    
+}
+
+.navRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 840px;
+    height: 74px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.menu-item-right {
+width: 46px;
+height: 26px;
+font-family: 'Adamina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #FACE8D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.navRight .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 32px;
+    gap: 48px;
+    width: 141px;
+    height: 74px;
+    order: 0;
+    flex-grow: 0;
+    }
