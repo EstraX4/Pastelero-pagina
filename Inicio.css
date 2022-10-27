@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #081212;
+}
+
+.PageInicio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/FondoInicio.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    position: absolute;
+    width: 9em;
+    top: 33px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.contenedorTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 36em;
+    height: 13em;
+    top: 198px;
+}
+
+.Reposteria {
+    width: 266px;
+    height: 72px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 90%;
+    color: #FACE8D;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.JuanCakes {
+    width: 548px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 21%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    flex: unset;
+    order: 1;
+    flex-grow: 0;
+    }
+
+    .subtitulo{
+    width: 600px;
+    height: 38px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 218%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 4em 0em 0em 0em;
+    align-items: center;
+    padding: 16px;
+    gap: 32px;
+    width: 247px;
+    height: 11px;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+
+
+.inner{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    width: 405px;
+    height: 48px; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 246px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.horario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 28px;
+    margin: 0em 0em;
+    gap: 8px;
+    width: 188px;
+    height: 83px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.TituloHorario{
+    width: 68px;
+    height: 21px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081212;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Row{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 11px;
+    width: 249px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Row p{
+    width: 120px;
+    height: 26px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #081212;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-item {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16;
+    width: 62px;
+    height: 34px;
+    background: #ffffff;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+    color: #000000;
+    justify-content: center;
+}
+
+.menu-item:hover {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16;
+    width: 62px;
+    height: 34px;
+    background: #000000;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+    color: #FFFFFF;
+    }
+
+    .menu-item:focus {
+        height: 42px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16;
+        width: 62px;
+        height: 34px;
+        background: #000000;
+        border-radius: 100px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        border: 0;
+        color: #FFFFFF;
+        }
+
+.contenedorNH{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    top: 27em;
+    position: absolute;
+}
