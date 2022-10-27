@@ -182,6 +182,8 @@ body{
 .menu-item {
     height: 42px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 16;
     width: 62px;
     height: 34px;
@@ -192,18 +194,16 @@ body{
     flex-grow: 0;
     border: 0;
     color: #000000;
+    text-decoration: none;
     justify-content: center;
     cursor: pointer;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
 }
 
 .menu-item:hover {
     height: 42px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 16;
     width: 62px;
     height: 34px;
@@ -213,19 +213,17 @@ body{
     order: 0;
     flex-grow: 0;
     border: 0;
-    color: #FFFFFF;
+    color: #ffffff;
+    text-decoration: none;
     justify-content: center;
     cursor: pointer;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
     }
 
 .menu-item:focus {
     height: 42px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 16;
     width: 62px;
     height: 34px;
@@ -235,12 +233,10 @@ body{
     order: 0;
     flex-grow: 0;
     border: 0;
-    color: #FFFFFF;
+    color: #ffffff;
+    text-decoration: none;
     justify-content: center;
     cursor: pointer;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
     }
 
 .contenedorNH{
