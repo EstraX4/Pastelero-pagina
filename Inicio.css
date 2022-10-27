@@ -195,6 +195,7 @@ body{
     border: 0;
     color: #000000;
     justify-content: center;
+    cursor: pointer;
 }
 
 .menu-item:hover {
@@ -214,21 +215,21 @@ body{
     color: #FFFFFF;
     }
 
-    .menu-item:focus {
-        height: 42px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16;
-        width: 62px;
-        height: 34px;
-        background: #000000;
-        border-radius: 100px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        border: 0;
-        color: #FFFFFF;
+.menu-item:focus {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16;
+    width: 62px;
+    height: 34px;
+    background: #000000;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+    color: #FFFFFF;
         }
 
 .contenedorNH{
