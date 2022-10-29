@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #081212;
+    background-color: #050505;
 }
 
 .PageInicio{
@@ -274,9 +274,8 @@ body{
     display: flex;
     position: static;
     width: 50%;
-    height: 1601px;
+    height: 1358px;
     margin: 0 0 0 50%;
-    border: white solid;
     align-items: center;
     flex-direction: column;
 }
@@ -284,14 +283,15 @@ body{
 .navRight {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
+    padding: 11px 0px 0px 0px;
     width: 100%;
-    height: 74px;
+    height: 62px;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+    align-items: center;
+    
 }
 
 .menu-item-right {
@@ -302,10 +302,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 160%;
-color: #FACE8D;
+color: #ffffff;
 flex: none;
 order: 0;
 flex-grow: 0;
+text-decoration: none;
 }
 
 .navRight .menu {
@@ -316,7 +317,7 @@ flex-grow: 0;
     height: 74px;
     order: 0;
     flex-grow: 0;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -330,12 +331,12 @@ flex-grow: 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    width: 386px;
-    height: 421px;
+    width: 30em;
+    height: 456px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    border: solid;
+    /* border: solid white; */
 }
 
 .header {
@@ -343,10 +344,252 @@ flex-grow: 0;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 16px;
-    width: 352px;
+    width: 446px;
     height: 45px;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    width: 478px;
+    height: 104px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.image img{
+    width: 104px;
+    height: 75px;
+    border-radius: 10px;
+    flex: auto;
+    order: 0;
+    flex-grow: 0;
+    margin: 0em 1em;
+}
+
+.TitulosDorado{
+width: 181px;
+height: 45px;
+font-family: 'Adamina';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70%;
+color: #FACE8D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.image{
+    
+display: flex;
+}
+
+.image .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+    width: 339px;
+    height: 84px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.textoContenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 331px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.textoGrid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 324px;
+    height: 26px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.textoMiniGrid{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 261px;
+    height: 27px;
+    flex: none;
+    order: 0;
+}
+
+.textoMiniGrid .subtitulosMenu{
+    width: 96px;
+    height: 32px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 57px;
+    height: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.priceTexto{
+    width: 57px;
+    height: 32px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descripcionMenu {
+    width: 316px;
+    height: 26px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+.right footer{
+    display: flex;
+    padding: 140px 0px 0px 0px;
+    gap: 6px;
+    width: 449px;
+    height: 223px;
+    /* flex: none; */
+    order: 2;
+    /* align-self: stretch; */
+    flex-grow: 0;
+    align-items: flex-start;
+}
+
+footer .column{display: flex;flex-direction: column;align-items: flex-start;padding: 0px;gap: 32px;width: 175px;height: 101px;flex: none;order: 0;flex-grow: 1;}
+
+.column .JuanCake{
+    width: 145px;
+    height: 29px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 90%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.column .Autor{
+    width: 110px;
+    height: 40px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.column .pages{
+    width: 49px;
+    height: 29px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.column nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 107px;
+    height: 152px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+nav .menu-item-footer{
+    width: 105px;
+    height: 26px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    text-decoration: none;
 }
