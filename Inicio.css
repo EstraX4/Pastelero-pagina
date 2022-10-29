@@ -309,6 +309,8 @@ flex-grow: 0;
 text-decoration: none;
 }
 
+
+
 .navRight .menu {
     display: flex;
     flex-direction: row;
@@ -366,8 +368,8 @@ text-decoration: none;
 }
 
 .image img{
-    width: 104px;
-    height: 75px;
+    width: 105px;
+    height: 82px;
     border-radius: 10px;
     flex: auto;
     order: 0;
@@ -392,7 +394,15 @@ flex-grow: 0;
 .image{
     
 display: flex;
+    
+padding: 1em 0em;
 }
+
+.image:hover{
+    display: flex;
+    border: solid 1px #FACE8D;
+    border-radius: 20px;
+    }
 
 .image .contenido{
     display: flex;
@@ -511,9 +521,7 @@ display: flex;
     gap: 6px;
     width: 449px;
     height: 223px;
-    /* flex: none; */
     order: 2;
-    /* align-self: stretch; */
     flex-grow: 0;
     align-items: flex-start;
 }
@@ -593,3 +601,7 @@ nav .menu-item-footer{
     flex-grow: 0;
     text-decoration: none;
 }
+
+.menu-item-right:hover, nav .menu-item-footer:hover {
+    color:#FACE8D
+    }
