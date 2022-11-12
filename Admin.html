@@ -1,12 +1,155 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Admin</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="Admin.css">
-        
-    </head>
-    <body>
-      
-    </body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="admin.css" />
+    <script
+      src="https://kit.fontawesome.com/00a734f883.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Admin</title>
+  </head>
+  <body>
+    <nav class="nav-desktop desktop">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="assets/Logo.png" alt="logo" />
+        </div>
+        <div class="nav-items">
+          <div class="nav-item">
+            <a href="admin.html">
+              <i class="fa-solid fa-bug"></i>
+              <p>Dashboard</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content desktop">
+      <header>
+        <div class="header-container">
+          <div class="header-left"></div>
+          <div class="header-right">
+            <i class="fa-solid fa-bell"></i>
+            <a href="./Menu.html">
+              <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="sabores">
+          <div class="sabores-header">
+            <h1>Sabores</h1>
+          </div>
+          <div class="sabores-container">
+            <div class="card">
+              <div class="card-icon chocolate">
+                <i class="fa-sharp fa-solid fa-cake-candles"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Chocolate</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon fresa">
+                <i class="fa-sharp fa-solid fa-cake-candles"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Fresa</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon vainilla">
+                <i class="fa-sharp fa-solid fa-cake-candles"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Vainilla</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sabores">
+          <div class="sabores-header">
+            <h1>Adornos</h1>
+          </div>
+          <div class="sabores-container">
+            <div class="card">
+              <div class="card-icon chocolate">
+                <i class="fa-sharp fa-solid fa-candy-cane"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Trozos de chocolate</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon mym">
+                <i class="fa-sharp fa-solid fa-candy-cane"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>M&M</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon colors">
+                <i class="fa-sharp fa-solid fa-candy-cane"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Fresas</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pedidos">
+          <div class="pedidos-header">
+            <h1>Pedidos</h1>
+            <hr />
+            <p>Ver mas</p>
+          </div>
+          <div>
+            <table class="rwd-table">
+              <tr>
+                <th>Nombre</th>
+                <th>Sabores</th>
+                <th>Adornos</th>
+                <th>Estado</th>
+              </tr>
+              <tr>
+                <td data-th="Nombre">Juan Estrada</td>
+                <td data-th="Sabores">Vainilla</td>
+                <td data-th="Adornos">M&M</td>
+                <td data-th="Estado">
+                  <span class="pendiente">Pendiente</span>
+                </td>
+                <td>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td data-th="Nombre">David Estrada</td>
+                <td data-th="Sabores">Chocolate</td>
+                <td data-th="Adornos">Fresas</td>
+                <td data-th="Estado">
+                  <span class="pendiente">Pendiente</span>
+                </td>
+                <td>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
