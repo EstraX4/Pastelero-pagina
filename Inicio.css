@@ -255,10 +255,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
   background-position: top;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)),
     url(assets/left.png);
+  background-size: cover;
 }
 
 .left2 {
@@ -725,7 +725,7 @@ body {
   z-index: 1;
   height: 100vh;
   width: 18%;
-  background: #191C24;
+  background: #191c24;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
 .nav-logo {
@@ -764,7 +764,7 @@ body {
 header {
   height: 10%;
   width: 100%;
-  background: #191C24;
+  background: #191c24;
   position: fixed;
   top: 0;
   left: 0;
@@ -787,7 +787,7 @@ header {
 
 .header-right i {
   margin: 0 1rem;
-  color: #FACE8D;
+  color: #face8d;
   cursor: pointer;
   font-size: 1.5rem;
 }
@@ -816,7 +816,7 @@ section {
 }
 
 .sabores .card {
-  background: #191C24;
+  background: #191c24;
   min-width: 28%;
   max-width: 28%;
   min-height: 8rem;
@@ -952,12 +952,10 @@ section {
   display: inline-block;
 }
 
-
 .rwd-table th,
 .rwd-table td {
   text-align: left;
 }
-
 
 .rwd-table {
   color: rgb(255 255 255);
@@ -969,8 +967,6 @@ section {
 .rwd-table td {
   margin: 0.5em 1em;
 }
-
-
 
 .rwd-table th,
 .rwd-table td:before {
