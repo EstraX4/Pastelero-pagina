@@ -272,6 +272,7 @@ body {
   background-position: top;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)),
     url(assets/left2.png);
+    background-size: cover;
 }
 .Reposteria {
   width: 201px;
